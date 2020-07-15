@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "test",
+    "version": "0.0.0",
+    "name": "test",
+    "description": "test",
+    "authors": [
+        "test"
+    ],
+    "contact": {
+    },
+    "license": "GNU GPL v3.0",
+    "icon": "assets/test/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "test.Main"
+        ],
+        "client": [
+        ],
+        "mm:early_risers": [
+            "test.asm.mm.EarlyRiser"
+        ]
+    },
+    "mixins": [
+        "test.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "*"
+    }
+}

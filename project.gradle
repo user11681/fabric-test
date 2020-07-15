@@ -1,0 +1,7 @@
+version = "0.0.0"
+
+dependencies {
+    modImplementation "${project.fabricASM}"
+    modImplementation "${project.apiBase}"
+    modImplementation "${project.apiNetworking}"
+}
